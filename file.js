@@ -12,6 +12,6 @@ fs.open(
 				console.log(buf.toString('utf8', 0, length));
 				fs.close(handle, function() {/* don't care */});
 				}
-			       );
+			);
 
-				});
+		});
